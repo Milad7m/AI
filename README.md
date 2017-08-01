@@ -1,2 +1,2 @@
 # AI
-This Repository Id Devoted To My Artificila Inteeligence Projects 
+This Repository Is Devoted To My Artificila Inteeligence Projects 
