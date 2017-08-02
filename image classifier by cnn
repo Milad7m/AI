@@ -35,7 +35,7 @@ So let's reshape x into a 4D tensor where the second and third dimensions specif
 x_image = tf.reshape(x, [-1, 28, 28, 1]) 
 Create the first convolutional layer that will extract 32 features for each 5x5 patch in the image:  
 # Define the first convolutional layer 
-W_conv1, b_conv1 = create_layer([5, 5, 1, 32]) 
+W_conv1, b_conv1 = create_layer([5, 5, 1, 32])  
 Convolve the image with weight tensor computed in the previous step, and then add the bias tensor to it. 
 We then need to apply the Rectified Linear Unit (ReLU) function to the output:  
 # Convolve the image with weight tensor, add the      
