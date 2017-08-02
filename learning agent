@@ -36,6 +36,6 @@ action = env.action_space.sample() Extract the consequences of taking the curren
 observation, reward, done, info = env.step(action) Check if we have achieved our goal:    
 # Check if it's done      
 if done:            
-print('Episode finished after {} timesteps'.format(i+1))              
+print('Episode finished after {} timesteps'.format(i+1))               
 break
 enjoy ! by great milad 
